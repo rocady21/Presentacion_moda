@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: rgb(29, 29, 29);
+}
+
+.modaSidebarAbrir{
+  animation-name: Animation;
+  animation-duration: 0.5s;
+  transition: ease-in;
+}
+
+.modaSidebarCerrar{
+  animation-name: End;
+  animation-duration: 0.2s;
+  transition: ease-in;
+}
+.home {
+  background: url("https://firebasestorage.googleapis.com/v0/b/random-2d5a6.appspot.com/o/WhatsApp%20Image%202023-11-25%20at%2020.15.07.jpeg?alt=media&token=64c1c8fa-19ef-4b48-865b-28f803557e35");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+
+}
+
+@keyframes Animation {
+  from{
+    left: -200px;
+  }
+  to{
+    left:0px;
+  }
+}
+@keyframes End {
+  from{
+    left: 200;
+  }
+  to{
+    right: 0;
+  }
+}

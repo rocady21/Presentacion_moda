@@ -42,7 +42,8 @@ const nextConfig = {
             "media.gettyimages.com",
             "preview.redd.it",
             "upload.wikimedia.org",
-            "",
+            "i.ytimg.com",
+            "crisnail.es"
 
         ]
     }

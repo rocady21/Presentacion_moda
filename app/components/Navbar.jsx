@@ -3,7 +3,6 @@ import react from "react";
 const Navbar = ()=> {
     return (
         <div className="p-3 text-gray-300 px-[250px] flex flex-row w-full shadow-gray-700/10 shadow-xl">
-            
                 <div className="title">
                     <h1 className="uppercase ">Moda<span className="text-purple-500 mx-1 font-bold">app</span></h1>
                 </div>

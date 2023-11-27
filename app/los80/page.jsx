@@ -201,7 +201,7 @@ aplicaban sombras de colores contrastantes
                             </div>
                             <div style={{ position: "relative", width: "30%", height: "450px" }} className="image bg-gray-200">
                                 <Image
-                                    src="https://phantom-telva.unidadeditorial.es/a593dbcf73375bf617e93ecc84d0e1f3/crop/0x0/2047x3067/assets/multimedia/imagenes/2020/01/30/15804100127050.jpg"
+                                    src="https://crisnail.es/wp-content/uploads/2018/07/shutterstock_474589309-580x386.jpg"
                                     layout="fill"
                                     objectFit="contain"
                                 />
@@ -279,7 +279,7 @@ aplicaban sombras de colores contrastantes
                                         </p>
 
                                     </div> : state === "Webgrafía"? <div className="bg-white p-5 text-center mt-[30%] m-auto">
-                                            <a className="outline-none" target="_blank" href="https://drive.google.com/file/d/1GGzD8T4fOs2VxMN5WBUPO0vyw1Rvm6v9/view?usp=drivesdk">Webigrafia aqui</a>
+                                            <a className="outline-none" target="_blank" href="https://drive.google.com/file/d/1GGzD8T4fOs2VxMN5WBUPO0vyw1Rvm6v9/view?usp=drivesdk">Webigrafía aqui</a>
                                     </div> : <div className="px-2 bg-white w-[90%] mt-5 flex flex-col items-center">
                                         <h1 className="text-black font-bold uppercase">Artistas</h1>
                                         <p className="my-1 mx-2 text-center">Los años 80 fueron una gran época para la música, pues fue el inicio de una generación de nuevos

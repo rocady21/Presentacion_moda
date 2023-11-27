@@ -1,9 +1,12 @@
 "use client"
 
 import { useState } from "react";
+import 'react-responsive-modal/styles.css';
 
 import CardInfo from "../components/CardInfo";
 import { todo_el_tiempo } from "../utils/moda";
+import Modal from "react-responsive-modal";
+import Image from "next/image";
 
 export default function Todo_El_Tiempo() {
 
@@ -14,7 +17,7 @@ export default function Todo_El_Tiempo() {
 
   return (
     <div className="text-gray-600">
-      <div className="categorias mt-[50px] w-[80%] m-auto">
+      <div className="categorias mt-[50px] w-[80%] m-auto relative">
         <div className="flex flex-col my-3 w-full">
           <div className="title my-[25px]">
             <h1 className="text-center text-[30px]">1910's</h1>
@@ -141,6 +144,22 @@ export default function Todo_El_Tiempo() {
 
           </div>
         </div>
+        <Modal open={open} onClose={onCloseModal} center>
+                <div className="flex flex-col bg-white p-0">
+                    <div style={{ position: "relative", width: "100%", height: "450px" }} className="image bg-black">
+                        <Image
+                            src={selectedToModal?.img}
+                            layout="fill"
+                            objectFit="contain"
+                        />
+                    </div>
+                    <div className="text  overflow-hidden flex flex-col  p-3">
+                        <h1 className="title font-bold ">{selectedToModal?.title}:</h1>
+                        <p className="">{selectedToModal?.info}</p>
+                    </div>
+                </div>
+        </Modal>
+        
 
       </div>
     </div>
